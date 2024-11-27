@@ -12,5 +12,7 @@ public class Main {
 
         var person02 = new PersonObject("Julia", "Kinky", 42);
         System.out.println(person02);
+
+        System.out.println("third change");
     }
 }
