@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        printPerson();
-
-        Scanner sc = new Scanner(System.in);
-    }
-
-    private static void printPerson() {
         var person01 = new PersonObject("John", "Willij", 40);
         System.out.println(person01);
+
+        Scanner sc = new Scanner(System.in);
+
+        var person02 = new PersonObject("Julia", "Kinky", 42);
+        System.out.println(person02);
     }
 }
